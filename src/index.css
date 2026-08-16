@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Noto Sans Georgian', 'DM Sans', system-ui, sans-serif;
+  color: #17231f;
+  background: #f7f8f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #17231f;
+  --muted: #65716b;
+  --green: #0c4c3d;
+  --green-bright: #17795f;
+  --lime: #d6f36b;
+  --coral: #f16b52;
+  --yellow: #f3c451;
+  --paper: #f7f8f4;
+  --white: #ffffff;
+  --line: #dfe4dd;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--paper); }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a { color: inherit; }
+img { max-width: 100%; }
+::selection { background: var(--lime); color: var(--ink); }
